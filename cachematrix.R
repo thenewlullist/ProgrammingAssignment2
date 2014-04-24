@@ -1,7 +1,7 @@
 ##These functions assume that the input is always a square invertible matrix
 
 ##makeCacheMatrix() takes a matrix input, calls the solve() function on it and outputs a list which sets/gets the value of the matrix object,
-##then sets/gets the value of its inverse. 
+##then sets/gets the value of its inverse 
 
 makeCacheMatrix <- function(x = matrix()) {
       mat <- NULL
