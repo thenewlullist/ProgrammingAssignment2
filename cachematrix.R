@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ##cacheSolve() recieves the object output of makeCacheMatrix() above. If the matrix is able to be inverted, and the matrix hasn't changed,
-##then `cacheSolve` retrieves the inverse from the cache.
+##then cacheSolve() retrieves the inverse from the cache.
 
 cacheSolve <- function(x, ...) {
       mat <- x$getsolve()
