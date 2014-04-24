@@ -1,7 +1,7 @@
 ##These functions assume that the input is always a square invertible matrix
 
-##makeCacheMatrix() takes a matrix input, calls the solve() function on it and outputs a list which sets/gets the value of the matrix object,
-##then sets/gets the value of its inverse. 
+#makeCacheMatrix() takes a matrix input, calls the solve() function on it and outputs a list which sets/gets the value of the matrix object,
+#then sets/gets the value of its inverse. 
 
 makeCacheMatrix <- function(x = matrix()) {
       mat <- NULL
@@ -18,8 +18,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-##cacheSolve() recieves the object output of makeCacheMatrix() above. If the matrix is able to be inverted, and the matrix hasn't changed,
-##then cacheSolve() retrieves the inverse from the cache.
+#cacheSolve() recieves the object output of makeCacheMatrix() above. If the matrix is able to be inverted, and the matrix hasn't changed,
+#then cacheSolve() retrieves the inverse from the cache.
 
 cacheSolve <- function(x, ...) {
       mat <- x$getsolve()
